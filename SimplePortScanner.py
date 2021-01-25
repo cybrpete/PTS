@@ -1,6 +1,6 @@
 import socket
 
-targetIP = input('What is the target's IP: ')
+targetIP = input('What is the target\'s IP: ')
 port = input('What port would you like to scan: ')
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
